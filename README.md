@@ -24,40 +24,6 @@ Certainly! Here's a detailed README.md file for your project:
 
 markdown
 Copy code
-# Code Editor Web App
-
-This is a simple web-based code editor application built using HTML, CSS, JavaScript, and external libraries like CodeMirror and Prism. It allows you to write and edit code in various programming languages and offers features such as syntax highlighting, code indentation, and code copying.
-
-![Code Editor Screenshot](/images/screenshot.png)
-
-## Prerequisites
-
-Before running the project, make sure you have the following installed:
-
-- A modern web browser (e.g., Google Chrome, Mozilla Firefox)
-- A code editor (optional) for making changes to the source code
-
-## Getting Started
-
-Follow these steps to run the Code Editor web app on your local machine:
-
-1. **Clone the Repository**: Start by cloning this repository to your local machine. You can use Git for this:
-
-   ```bash
-   git clone https://github.com/your-username/code-editor.git
-Alternatively, you can download the repository as a ZIP file and extract it to your preferred location.
-
-Navigate to the Project Directory: Change your working directory to the project folder:
-
-bash
-Copy code
-cd code-editor
-Open index.html: Simply open the index.html file in your preferred web browser. You can do this by double-clicking the file or using your browser's "Open File" option.
-
-bash
-Copy code
-google-chrome index.html   # Example for Google Chrome
-The web app should now open in your browser.
 
 ## Using the Code Editor:
 
