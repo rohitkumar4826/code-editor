@@ -47,7 +47,7 @@ This project uses the following open-source libraries:
 
 - CodeMirror - A versatile text editor implemented in JavaScript for the browser.
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Author
 ## Rohit
