@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Editor</title>
+    <!-- Link to the favicon for the web page -->
+    <link rel="shortcut icon" href="./images/loge.png" type="image/x-icon" />
+    <!-- External CSS links for CodeMirror and Prism themes -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/codemirror.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/theme/dracula.css"
+    />
+    <!-- Links to custom CSS and JavaScript files -->
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./index.js" />
+  </head>
+  <body>
+    <div class="contain">
+      <div class="button-container">
+        <!-- HTML/CSS button -->
+        <button id="html" class="button">
+          <img
+            src="./images/html.png"
+            alt="html Icon"
+            class="button-icon icon"
+          />
+          <span class="button-text">HTML/CSS</span>
+        </button>
+        <!-- CPP button -->
+        <button id="cpp" class="button">
+          <img src="./images/cpp.png" alt="CPP Icon" class="button-icon icon" />
+          <span class="button-text">CPP</span>
+        </button>
+        <!-- Copy button -->
+        <button id="copy-button" class="button">
+          <img
+            src="./images/copyi.png"
+            alt="Copy Icon"
+            class="button-icon icon"
+          />
+          <span class="button-text">Copy</span>
+        </button>
+        <!-- Save button -->
+        <button id="save-button" class="button">
+          <img
+            src="./images/save.png"
+            alt="Save Icon"
+            class="button-icon icon"
+          />
+          <span class="button-text">Save</span>
+        </button>
+        <!-- Lock button -->
+        <button id="lock-button" class="button">
+          <img
+            src="./images/lock.png"
+            alt="Lock Icon"
+            class="button-icon icon"
+          />
+          <span class="button-text">Lock</span>
+        </button>
+        <!-- Indent button -->
+        <button id="ibutton" class="button">
+          <img
+            src="./images/indent.png"
+            alt="Indent Icon"
+            class="button-icon icon"
+          />
+          <span class="button-text">Indent</span>
+        </button>
+      </div>
+      <!-- Text area for the code editor -->
+      <textarea
+        id="code-editor"
+        title="textarea"
+        class="code-editor"
+      ></textarea>
+    </div>
+    <!-- External JavaScript files for CodeMirror and custom functionality -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/codemirror.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/mode/htmlmixed/htmlmixed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/mode/xml/xml.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/mode/css/css.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/mode/javascript/javascript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/mode/clike/clike.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/addon/edit/closebrackets.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #222;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* Block */
+.contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Block */
+.CodeMirror {
+    border: 2px solid #0073e6;
+    border-radius: 10px;
+    width: 100%;
+    height: 70vh;
+    font-size: 16px;
+}
+
+/* Block */
+.code-editor {
+    width: 100%;
+    height: 70vh;
+    border: none;
+    background-color: #1e1e1e;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Block */
+.button-container {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Element */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.1s;
+}
+
+/* Element Modifier */
+.button:hover {
+    background-color: #00b309;
+    color: #fff;
+}
+
+/* Element Modifier */
+.icon {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
+
+/* Element Modifier */
+.active-button {
+    background-color: #00b309;
+    color: #fff;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Element Modifier */
+    .CodeMirror {
+        font-size: 14px;
+    }
+
+    /* Element Modifier */
+    .code-editor {
+        font-size: 14px;
+    }
+
+    /* Element Modifier */
+    .button {
+        padding: 8px 15px;
+    }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+    /* Element Modifier */
+    .button-text {
+        display: none;
+    }
+
+    /* Element Modifier */
+    .button {
+        padding: 8px;
+    }
+
+    /* Block */
+    .button-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+/* Element Modifier */
+#lock-button {
+    background-color: #ff3c3c;
+    border: 2px solid #ff3c3c;
+}
+
+/* Element Modifier */
+#lock-button:hover {
+    background-color: #e61919;
+    border: 2px solid #e61919;
+}
