@@ -27,25 +27,25 @@ Copy code
 
 ## Using the Code Editor:
 
-Choose a language from the "HTML/CSS" or "CPP" buttons to set the code editor's mode.
-You can write, edit, and format code within the editor.
-Use the "Copy" button to copy the code to your clipboard.
-The "Save" button allows you to save the code as a text file.
-Click "Lock" to toggle read-only mode for the editor.
-The "Indent" button can be used to automatically add 2 spaces of indentation to the code.
+- Choose a language from the "HTML/CSS" or "CPP" buttons to set the code editor's mode.
+- You can write, edit, and format code within the editor.
+- Use the "Copy" button to copy the code to your clipboard.
+- The "Save" button allows you to save the code as a text file.
+- Click "Lock" to toggle read-only mode for the editor.
+- The "Indent" button can be used to automatically add 2 spaces of indentation to the code.
 
 ## Customization
 If you want to customize the code editor's appearance or behavior, you can modify the following files:
 
-index.html: The main HTML structure of the web app.
-index.css: The custom CSS styles to enhance the appearance.
-index.js: JavaScript code for controlling the code editor's functionality.
-You can add your themes, modify the UI, or include additional features by editing these files.
+- index.html: The main HTML structure of the web app.
+- index.css: The custom CSS styles to enhance the appearance.
+- index.js: JavaScript code for controlling the code editor's functionality.
+- You can add your themes, modify the UI, or include additional features by editing these files.
 
 ## Acknowledgments
 This project uses the following open-source libraries:
 
-CodeMirror - A versatile text editor implemented in JavaScript for the browser.
+- CodeMirror - A versatile text editor implemented in JavaScript for the browser.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
